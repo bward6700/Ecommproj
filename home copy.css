@@ -1,0 +1,74 @@
+body{
+    background:url(images/vinylback2.jpg) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nheader{
+    width:100%;
+    background-color: rgba(154, 154, 154, 0.5);
+}
+
+.nheader ul{
+    text-align: center;
+}
+
+.nheader ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nheader ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.nheader ul li a:hover{
+    background-color: #211b4385;
+}
+
+.pageTitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+.aboutUs{
+    background-color: rgba(177, 177, 177, 0.9);
+    height: 335px;
+    width: 500px;
+    border: 6px solid rgb(255, 255, 255);
+    padding: 50x;
+    margin:20px;
+    margin-left:32%
+}
+
+.aboutUs h2{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.aboutUs h3{
+    color: black;
+    text-align: left;
+}
+
+.bNote{
+    width: 4%;
+    height: 2%;
+}
+
+.ig{
+    width: 2%;
+    height: 2%;
+}

@@ -1,0 +1,133 @@
+
+
+.nheader{
+    width:100%;
+    background-color: rgba(0,0,0,.50);
+}
+
+.nheader ul{
+    text-align: center;
+}
+
+.nheader ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nheader ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.nheader ul li a:hover{
+    background-color: #211b4385;
+}
+
+body{
+    background-color: aliceblue;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background:white;
+    display: flex;
+}
+
+.contact-top{
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+
+.contact-bottom{
+    flex-basis:40%;
+    padding:40px;
+    background:gray;
+    color: rgb(0, 0, 0);
+
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis:45%;
+}
+
+input{
+    width:100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid gray;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #0F0700;
+}
+
+button{
+    background:#0F0700;
+    width:100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    height: 35px;
+    margin-top: 20px;
+}
+
+
+.contact-top h3{
+    color: #0F0700;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-bottom h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bNote{
+    width: 4%;
+    height: 2%;
+}
+
+.ig{
+    width: 2%;
+    height: 2%;
+}
